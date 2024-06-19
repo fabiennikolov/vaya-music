@@ -1,8 +1,9 @@
 <footer>
     <div class="relative">
-        <div class="w-full h-[405px] bg-cover bg-center" style="background-image: url('/images/footer.jpg');">
-            <div class="flex text-white w-fit mx-auto">
-                <a class="p-2" href="#">
+        <div class="w-full h-[405px] bg-cover bg-center pt-14" style="background-image: url('/images/footer.jpg');">
+            <h2 class="text-white text-center didot text-[90px]">VAYA</h2>
+            <div class="flex flex-wrap text-white w-fit mx-auto">
+                <a href="#" class="p-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256">
                         <path fill="currentColor"
                             d="M234.33 69.52a24 24 0 0 0-14.49-16.4C185.56 39.88 131 40 128 40s-57.56-.12-91.84 13.12a24 24 0 0 0-14.49 16.4C19.08 79.5 16 97.74 16 128s3.08 48.5 5.67 58.48a24 24 0 0 0 14.49 16.41C69 215.56 120.4 216 127.34 216h1.32c6.94 0 58.37-.44 91.18-13.11a24 24 0 0 0 14.49-16.41c2.59-10 5.67-28.22 5.67-58.48s-3.08-48.5-5.67-58.48m-73.74 65l-40 28A8 8 0 0 1 108 156v-56a8 8 0 0 1 12.59-6.55l40 28a8 8 0 0 1 0 13.1Z" />
@@ -38,6 +39,13 @@
                             d="M17.05 20.28c-.98.95-2.05.8-3.08.35c-1.09-.46-2.09-.48-3.24 0c-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8c1.18-.24 2.31-.93 3.57-.84c1.51.12 2.65.72 3.4 1.8c-3.12 1.87-2.38 5.98.48 7.13c-.57 1.5-1.31 2.99-2.54 4.09zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25c.29 2.58-2.34 4.5-3.74 4.25" />
                     </svg>
                 </a>
+            </div>
+            <div class="block absolute bottom-0 w-full items-center justify-center">
+                <hr class="sm:w-[450px] sm:mx-auto border-white/35" />
+                <div class="flex flex-wrap w-full sm:w-[450px] items-center mx-auto justify-between my-6 px-6 sm:px-0">
+                    <p class="text-white">VAYA MUSIC</p>
+                    <p class="text-white">Всички права запазени</p>
+                </div>
             </div>
         </div>
     </div>
