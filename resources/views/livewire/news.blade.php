@@ -8,7 +8,7 @@
     </div>
 
     @if (isset($newss) && count($newss) > 0)
-        <div class="grid gap-4 md:gap-12 xl:grid-cols-3 sm:grid-cols-2 grid-cols-1 px-8 mb-4">
+        <div class="grid gap-4 md:gap-12 xl:grid-cols-3 sm:grid-cols-2 grid-cols-1 px-2 mb-4">
             @foreach ($newss as $news)
                 <article
                     class="mx-auto flex w-full max-w-md flex-col justify-between">
