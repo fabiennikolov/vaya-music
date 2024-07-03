@@ -9,7 +9,7 @@ class Soon extends Component
 {
  public $soons;
     public function mount(){
-        $this->soons = ModelsSoon::all();
+        $this->soons = ModelsSoon::with('media')->get();
     }
 
     public function render()

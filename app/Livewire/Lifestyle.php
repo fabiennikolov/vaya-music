@@ -12,10 +12,10 @@ class Lifestyle extends Component
 
     public function mount()
     {
-        $this->lifestyles = ModelsLifestyle::all(); // First fetch all lifestyles
-
-        if ($this->lifestyles->isNotEmpty()) {
-            $this->images = $this->lifestyles->first()->getMedia('lifestyle'); // Get media for the first lifestyle
+        if (request()->is('/')) {
+            $this->lifestyles = ModelsLifestyle::take(2)->get();
+        } else {
+            $this->lifestyles = ModelsLifestyle::with('media')->get();
         }
     }
 

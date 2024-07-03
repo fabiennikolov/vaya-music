@@ -10,9 +10,11 @@
 </head>
 
 <body>
-    @livewire('navigation')
+    <main>
+        @livewire('navigation')
         <main>{{ $slot }}</main>
-    @livewire('footer')
+        @livewire('footer')
+    </main>
 </body>
 
 </html>

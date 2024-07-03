@@ -14,7 +14,7 @@ class Events extends Component
         if (request()->is('/')) {
             $this->events = Event::take(2)->get();
         } else {
-            $this->events = Event::all();
+            $this->events = Event::with('media')->get();
         }
     }
 

@@ -6,6 +6,7 @@ use App\Filament\Resources\MusicResource\Pages;
 use App\Filament\Resources\MusicResource\RelationManagers;
 use App\Models\Music;
 use Filament\Forms;
+use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
@@ -26,7 +27,10 @@ class MusicResource extends Resource
         return $form
             ->schema([
                 TextInput::make('title'),
-                TextInput::make('song')
+                FileUpload::make('song')
+                    ->label('Upload MP3 File')
+                    ->preserveFilenames()
+                    ->rules('required|mimes:mp3'),
             ]);
     }
 

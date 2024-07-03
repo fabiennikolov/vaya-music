@@ -1,8 +1,34 @@
 <footer>
     <div class="relative">
         <div class="w-full h-[405px] bg-cover bg-center pt-14" style="background-image: url('/images/footer.jpg');">
-            <h2 class="text-white text-center didot text-[90px]">VAYA</h2>
-            <div class="flex flex-wrap text-white w-fit mx-auto">
+            <svg class="mx-auto" height="120" viewBox="0 0 120 48" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_1737_1918)">
+                    <mask id="mask0_1737_1918" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0"
+                        width="120" height="48">
+                        <path d="M119.287 0H0V48H119.287V0Z" fill="#FFFFFF" />
+                    </mask>
+                    <g mask="url(#mask0_1737_1918)">
+                        <path
+                            d="M24.3538 38.9176L11.7386 9.00974H7.71252V8.4733H21.2224V9.00974H16.7041L26.4563 32.7036L33.9269 10.798C34.2848 9.14385 34.0164 9.00974 33.2559 9.00974H30.4377V8.4733H38.8477V9.00974H36.1637C35.4032 9.00974 34.8216 9.59089 34.419 10.798L24.8458 38.9176H24.3538Z"
+                            fill="#FFFFFF" />
+                        <path
+                            d="M33.9713 38.2918V37.7553H36.6106C37.1922 37.7553 37.729 37.1742 38.1316 36.0118L47.9732 7.89215H48.51L59.5147 37.7553H63.3619V38.2918H50.5678V37.7553H54.5492L51.2388 28.2778H41.3525L38.579 36.0118C37.9974 37.4871 38.221 37.7553 38.4448 37.7553H41.8446V38.2918H33.9713ZM41.4867 27.7861H51.0598L46.318 14.1062L41.4867 27.7861Z"
+                            fill="#FFFFFF" />
+                        <path
+                            d="M68.5502 38.2918V37.7553H72.442V25.2825L64.3003 9.00974H60.1848V8.4733H73.7841V9.00974H69.4001L76.9155 24.1201L82.9994 10.798C83.5362 9.59089 83.3573 9.00974 82.4179 9.00974H79.5549V8.4733H87.965V9.00974H85.5046C84.6993 9.00974 83.9835 9.68029 83.3573 11.0215L77.0497 24.9696V37.7553H80.9416V38.2918H68.5502Z"
+                            fill="#FFFFFF" />
+                        <path
+                            d="M83.7141 38.2918V37.7553H86.3535C86.935 37.7553 87.4718 37.1742 87.8744 36.0118L97.716 7.89215H98.2528L109.258 37.7553H113.105V38.2918H100.311V37.7553H104.292L100.982 28.2778H91.0952L88.3217 36.0118C87.7402 37.4871 87.9638 37.7553 88.1875 37.7553H91.5873V38.2918H83.7141ZM91.2294 27.7861H100.803L96.0608 14.1062L91.2294 27.7861Z"
+                            fill="#FFFFFF" />
+                    </g>
+                </g>
+                <defs>
+                    <clipPath id="clip0_1737_1918">
+                        <rect width="119.287" height="48" fill="#FFFFFF" />
+                    </clipPath>
+                </defs>
+            </svg>
+            <div class="flex flex-wrap text-white w-fit mx-auto items-center justify-center justify-items-center">
                 <a href="#" class="p-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256">
                         <path fill="currentColor"

@@ -1,6 +1,6 @@
 <section class="py-12 bg-gray-100">
     <div>
-        <h2 class="font-bold text-5xl text-center">Ochakvaite</h2>
+        <h2 class="font-bold text-5xl text-center">Очаквайте</h2>
         <div class="grid sm:grid-cols-2 container mx-auto grid-cols-1 justify-center items-center gap-4 my-4 px-2">
             {{-- Card --}}
             @foreach ($soons as $soon)
