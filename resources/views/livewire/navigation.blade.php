@@ -128,7 +128,7 @@
                             </svg>
                         </button>
                     </div>
-                    <ul class="text-black flex flex-col items-center space-y-10 text-2xl">
+                    <ul class="text-black flex flex-col items-center space-y-8 text-2xl">
                         <li><a wire:navigate.hover href="/">Начало</a></li>
                         <li><a wire:navigate.hover href="/lifestyle">Vaya Lifestyle</a></li>
                         <li><a wire:navigate.hover href="/news">Vaya News</a></li>
